@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Introduction to Ruby</title>
+
+    <meta name="description" content="A short introduction to Ruby language">
+    <meta name="author" content="Maciej Mensfeld">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h2>Introduction to Ruby</h2>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
+          <p>
+            <small>
+              <a href="http://mensfeld.pl">Maciej Mensfeld</a><br/>
+              twitter: <a href="http://twitter.com/maciejmensfeld">@maciejmensfeld</a><br/>
+              www: <a href="http://mensfeld.pl">mensfeld.pl</a><br/>
+              e-mail: <a href="mailto:maciej@mensfeld.pl">maciej@mensfeld.pl</a>
+            </small>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h2>A bit about me</h2>
+
+          <p>
+          <ul>
+            <li>9 years of commercial exp in IT</li>
+            <li>7 years with Ruby and Rails</li>
+            <li>I find Ruby quite usefull</li>
+            <li>And I run a blog mostly about Ruby related stuff</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h2>Please notify me if...</h2>
+
+          <p>
+          <ul>
+            <li>I speak 2 fast</li>
+            <li>I should repeat something</li>
+            <li>I should explain something better</li>
+            <li>You have any questions</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h2>What is Ruby?</h2>
+
+          <blockquote>
+            Ruby is a powerful, flexible programming language you can use in web/Internet development, to process text, to create games, and as part of the popular Ruby on Rails web framework.
+          </blockquote>
+
+
+          <p style="float:right;">
+            <small>www.codecademy.com</small>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h2>Ruby is...</h2>
+
+          <p>
+          <ul>
+            <li>Open-source</li>
+            <li>High-level</li>
+            <li>Interpreted</li>
+            <li>Object-oriented</li>
+            <li>Easy to use</li>
+            <li>Great for prototyping (but not only)</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/iron.jpg" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; position: absolute; z-index: -1;"/>
+
+          <h2>Ruby is like an Iron-man</h2>
+
+          <p>
+          <ul>
+            <li>Shiny</li>
+            <li>Red</li>
+            <li>Quite handy</li>
+            <li>Heavy from time 2 time</li>
+            <li>Electric powered</li>
+            <li>Supported by many people</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 7%;"/>
+
+          <h2>But where Ruby comes from?</h2>
+
+          <p>
+          <ul>
+            <li>Ruby comes from Japan</li>
+            <li>Created by Yukihiro Matsumoto (Matz) in 1993</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 7%;"/>
+
+          <h2>Matz wants you to...</h2>
+
+          <p>
+          <ul>
+            <li>enjoy programming</li>
+            <li>be productive</li>
+            <li>be happy</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h3>That's why Ruby took good things among others from:</h3>
+
+          <p>
+          <ul>
+            <li>Python</li>
+            <li>Smalltalk</li>
+            <li>Perl</li>
+            <li>Lisp</li>
+            <li>Eiffel</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h2>How can we use Ruby?</h2>
+
+          <p>
+          <ul>
+            <li>Command line</li>
+            <li>Desktop applications</li>
+            <li>Web applications (mostly Rack based)</li>
+            <li>Mobile applications</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h2>Cracow Ruby community is really active</h2>
+
+          <p>
+          <ul>
+            <li>Thousands of developers</li>
+            <li>KRUG (Cracow Ruby Users Group)</li>
+            <li>Many workshops &amp; courses (mostly free)</li>
+            <li>Many Cracow located companies use Ruby</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <h2>Ruby loves to talk with other!</h2>
+
+          <img src="img/talk.png" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
+        </section>
+
+
+        <section>
+
+          <h2>Who uses Ruby?</h2>
+
+          <img src="img/who.png" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 7%;"/>
+
+          <h2>What Ruby is not?</h2>
+
+          <p>
+          <ul>
+            <li>Ruby is not the best solution to every problem there is</li>
+            <li>Ruby is not suitable for really small and simple web apps</li>
+            <li>Ruby is not Python</li>
+            <li>Ruby is not the "better PHP"</li>
+            <li>Ruby is not something that works on Windows</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <h2>Readability over convenience</h2>
+
+          <img src="img/pair.jpg" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 7%;"/>
+
+          <h3>Readability over convenience</h3>
+
+          <pre><code data-trim>
+public class HelloWorld{
+  public static void main(String args){
+    System.out.println("Hello World");
+  }
+}
+          </code></pre>
+
+vs
+
+          <pre><code data-trim>
+puts "Hello World"
+          </code></pre>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h3>Great syntax &amp; objects, objects, objects...</h3>
+
+          <pre><code data-trim>
+3.times { puts "Ruby is cool"}
+["Maciek", "John", "Anna"].first #=> "Maciek"
+["Maciek", "John", "Anna"].last  #=> "Anna"
+attr_accessor :name
+          </code></pre>
+
+          <pre><code data-trim>
+"Anna".class #=> String
+nil.class    #=> NilClass
+1.class      #=> Integer
+{}.class     #=> Hash
+[].class     #=> Array
+self.class   #=> Object
+(0..9).class #=> Range
+          </code></pre>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h3>Classes, methods, objects</h3>
+
+          <pre><code data-trim>
+# Comments starts with "#"
+class Messenger
+  def initialize(name)
+     # instance variables starts with "@"
+    @name = name
+  end
+
+  # Methods are public by default
+  def hello
+    puts  "Hello #{@name }!"
+  end
+end
+          </code></pre>
+execution:
+          <pre><code data-trim>
+msg = Message.new("Maciek")
+msg.hello #=> "Hello Maciek!"
+          </code></pre>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 10%;"/>
+
+          <h2>Ruby loops</h2>
+
+          <pre><code data-trim>
+# Ruby each loop
+friends.each{ |friend| puts friend }
+          </code></pre>
+
+          <pre><code data-trim>
+// Same in C
+for(i=0; i&lt;number_of_elements;i++)
+{
+  print element[i]
+}
+          </code></pre>
+
+
+          <pre><code data-trim>
+10.times { |i| puts i }
+10.downto(1){ |i| puts i }
+          </code></pre>
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h3>Ruby craziness - symbols</h3>
+
+          <blockquote>
+            A Ruby symbol is a thing that has both a number (integer) representation and a string representation.
+          </blockquote>
+
+          <pre><code data-trim>
+# Symbols are used in many places,
+# for example you can use them to create hashes
+user = { name: 'Maciej', email: 'maciej@mensfeld.pl' }
+print user[:name] #=> "Maciej"
+          </code></pre>
+
+          <blockquote>
+            Symbols are way more efficient than strings because they act like singletons.
+          </blockquote>
+
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 10%;"/>
+
+          <h3>Ruby craziness - symbols</h3>
+
+          <pre><code data-trim>
+puts "name".object_id # => 8305060
+puts "name".object_id # => 8295440
+puts :name.object_id  # => 85148
+puts :name.object_id  # => 85148
+          </code></pre>
+
+          <pre><code data-trim>
+puts "name".object_id == "name".object_id # => false
+puts :name.object_id == :name.object_id   # => true
+          </code></pre>
+
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
+
+
+          <h1>THE END - Q &amp; A</h1>
+
+          <p>
+            <small>
+              <a href="http://mensfeld.pl">Maciej Mensfeld</a><br/>
+              twitter: <a href="http://twitter.com/maciejmensfeld">@maciejmensfeld</a><br/>
+              www: <a href="http://mensfeld.pl">mensfeld.pl</a><br/>
+              e-mail: <a href="mailto:maciej@mensfeld.pl">maciej@mensfeld.pl</a>
+            </small>
+          </p>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
