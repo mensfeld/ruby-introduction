@@ -377,6 +377,76 @@ puts :name.object_id == :name.object_id   # => true
         </section>
 
         <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h3>DRY - Don't repeat yourself - Rubygems</h3>
+
+          <p>
+          If you need a certain functionality, someone probably built it already!
+          </p>
+
+          <blockquote>
+RubyGems is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries (in a self-contained format called a "gem"), a tool designed to easily manage the installation of gems, and a server for distributing them.
+          </blockquote>
+        </section>
+
+
+        </section>
+
+        <section>
+          <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 5%;"/>
+
+          <h3>Ruby is not only about Rails</h3>
+
+          <p>
+
+            Ruby on Rails is great, but there's much more than that!
+          <ul>
+            <li>Many more web frameworks like Sinatra, Padrino, ELDR</li>
+            <li>RubyMotion - cross-platform native apps in Ruby</li>
+            <li>MobiRuby - Ruby for mobile phones</li>
+            <li>Rhomobile - Motorola framework for mobile apps</li>
+            <li>EventMachine: fast, simple event-processing library for Ruby programs</li>
+            <li>And much more...</li>
+          </ul>
+          </p>
+        </section>
+
+        <section>
+          <h3>Sinatra in 30 seconds</h3>
+
+          <pre><code data-trim>
+gem install sinatra
+          </code></pre>
+
+          <pre><code data-trim>
+# app.rb
+require 'sinatra'
+
+class HelloWorldApp < Sinatra::Base
+  get '/' do
+    'Hello, world!'
+  end
+end
+          </code></pre>
+
+          <pre><code data-trim>
+# config.ru
+require './app'
+run HelloWorldApp
+          </code></pre>
+
+          <pre><code data-trim>
+rackup
+
+# Puma 2.11.3 starting...
+# * Min threads: 0, max threads: 16
+# * Environment: development
+# * Listening on tcp://localhost:9292
+          </code></pre>
+        </section>
+
+        <section>
           <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff;"/>
 
 
