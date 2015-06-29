@@ -1,3 +1,3 @@
-# Docker for Ruby applications
+# Introduction to Ruby
 
-Open [http://mensfeld.github.io/docker-for-ruby-apps](http://mensfeld.github.io/docker-for-ruby-apps)
+Open [http://mensfeld.github.io/ruby-introduction](http://mensfeld.github.io/ruby-introduction)
