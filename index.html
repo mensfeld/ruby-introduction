@@ -62,8 +62,8 @@
           <ul>
             <li>9 years of commercial exp in IT</li>
             <li>7 years with Ruby and Rails</li>
-            <li>I find Ruby quite usefull</li>
-            <li>And I run a blog mostly about Ruby related stuff</li>
+            <li>I find Ruby quite useful</li>
+            <li>And I am running a blog mostly about Ruby related stuff</li>
           </ul>
           </p>
         </section>
@@ -135,7 +135,7 @@
         <section>
           <img src="img/ruby.gif" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; width: 7%;"/>
 
-          <h2>But where Ruby comes from?</h2>
+          <h2>But where does Ruby come from?</h2>
 
           <p>
           <ul>
@@ -226,7 +226,7 @@
 
           <p>
           <ul>
-            <li>Ruby is not the best solution to every problem there is</li>
+            <li>Ruby is not the best solution to every problem though</li>
             <li>Ruby is not suitable for really small and simple web apps</li>
             <li>Ruby is not Python</li>
             <li>Ruby is not the "better PHP"</li>
@@ -248,7 +248,7 @@
 
           <pre><code data-trim>
 public class HelloWorld{
-  public static void main(String args){
+  public static void main(String[] args){
     System.out.println("Hello World");
   }
 }
@@ -267,7 +267,7 @@ puts "Hello World"
           <h3>Great syntax &amp; objects, objects, objects...</h3>
 
           <pre><code data-trim>
-3.times { puts "Ruby is cool"}
+3.times { puts "Ruby is cool" }
 ["Maciek", "John", "Anna"].first #=> "Maciek"
 ["Maciek", "John", "Anna"].last  #=> "Anna"
 attr_accessor :name
@@ -290,22 +290,22 @@ self.class   #=> Object
           <h3>Classes, methods, objects</h3>
 
           <pre><code data-trim>
-# Comments starts with "#"
+# Comments start with "#"
 class Messenger
   def initialize(name)
-     # instance variables starts with "@"
+     # Instance variables start with "@"
     @name = name
   end
 
   # Methods are public by default
   def hello
-    puts  "Hello #{@name }!"
+    puts "Hello #{@name}!"
   end
 end
           </code></pre>
 execution:
           <pre><code data-trim>
-msg = Message.new("Maciek")
+msg = Messenger.new("Maciek")
 msg.hello #=> "Hello Maciek!"
           </code></pre>
         </section>
@@ -322,16 +322,16 @@ friends.each{ |friend| puts friend }
 
           <pre><code data-trim>
 // Same in C
-for(i=0; i&lt;number_of_elements;i++)
+for(i = 0; i &lt; number_of_elements; i++)
 {
-  print element[i]
+  print element[i];
 }
           </code></pre>
 
 
           <pre><code data-trim>
 10.times { |i| puts i }
-10.downto(1){ |i| puts i }
+10.downto(1) { |i| puts i }
           </code></pre>
         </section>
 
@@ -402,12 +402,12 @@ RubyGems is a package manager for the Ruby programming language that provides a 
 
             Ruby on Rails is great, but there's much more than that!
           <ul>
-            <li>Many more web frameworks like Sinatra, Padrino, ELDR</li>
-            <li>RubyMotion - cross-platform native apps in Ruby</li>
-            <li>MobiRuby - Ruby for mobile phones</li>
+            <li>Huge variety of web frameworks like Sinatra, Padrino, ELDR, Lotus</li>
+            <li>RubyMotion - cross-platform mobile apps in Ruby</li>
+            <li>MobiRuby - Ruby platform for iOS development</li>
             <li>Rhomobile - Motorola framework for mobile apps</li>
-            <li>EventMachine: fast, simple event-processing library for Ruby programs</li>
-            <li>And much more...</li>
+            <li>EventMachine - fast, simple event-processing library for Ruby programs</li>
+            <li>And so on and so forth...</li>
           </ul>
           </p>
         </section>
